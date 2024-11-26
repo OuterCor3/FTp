@@ -1,0 +1,523 @@
+. 2024-11-21 10:47:13.950 --------------------------------------------------------------------------
+. 2024-11-21 10:47:13.950 WinSCP Version 6.3.5 (Build 14991 2024-09-10) (OS 10.0.22631 – Windows 10 Home)
+. 2024-11-21 10:47:13.950 Configuration: nul
+. 2024-11-21 10:47:13.950 Log level: Normal
+. 2024-11-21 10:47:13.950 Local account: GON\gonlu
+. 2024-11-21 10:47:13.950 Working directory: C:\Users\gonlu\Desktop\FTP
+. 2024-11-21 10:47:13.950 Process ID: 18176
+. 2024-11-21 10:47:13.961 Ancestor processes: cmd, explorer, ...
+. 2024-11-21 10:47:13.961 Command-line: C:\Users\gonlu\AppData\Local\Programs\WinSCP\WinSCP.exe  /script=temp_script.txt /log=upload_log.txt /ini=nul
+. 2024-11-21 10:47:13.962 Time zone: Current: GMT+8 (China Standard Time), No DST
+. 2024-11-21 10:47:13.962 Login time: Thursday, 21 November 2024 10:47:13 am
+. 2024-11-21 10:47:13.962 --------------------------------------------------------------------------
+. 2024-11-21 10:47:13.962 Script: Retrospectively logging previous script records:
+> 2024-11-21 10:47:13.962 Script: open sftp://gon@192.168.137.1 -privatekey="C:\Users\gonlu\Desktop\FTP\privatekey.rsa.pub" 
+. 2024-11-21 10:47:13.962 --------------------------------------------------------------------------
+. 2024-11-21 10:47:13.962 Session name: gon@192.168.137.1 (Ad-Hoc site)
+. 2024-11-21 10:47:13.962 Host name: 192.168.137.1 (Port: 22)
+. 2024-11-21 10:47:13.962 User name: gon (Password: No, Key file: Yes, Passphrase: No)
+. 2024-11-21 10:47:13.962 Tunnel: No
+. 2024-11-21 10:47:13.962 Transfer Protocol: SFTP
+. 2024-11-21 10:47:13.962 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2024-11-21 10:47:13.962 Disable Nagle: No
+. 2024-11-21 10:47:13.962 Proxy: None
+. 2024-11-21 10:47:13.962 Send buffer: 262144
+. 2024-11-21 10:47:13.962 Compression: No
+. 2024-11-21 10:47:13.962 Bypass authentication: No
+. 2024-11-21 10:47:13.962 Try agent: Yes; Agent forwarding: No; KI: Yes; GSSAPI: Yes
+. 2024-11-21 10:47:13.962 GSSAPI: KEX: No; Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2024-11-21 10:47:13.962 Ciphers: aes,chacha20,aesgcm,3des,WARN,des,blowfish,arcfour; Ssh2DES: No
+. 2024-11-21 10:47:13.962 KEX: ntru-curve25519,ecdh,dh-gex-sha1,dh-group18-sha512,dh-group17-sha512,dh-group16-sha512,dh-group15-sha512,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2024-11-21 10:47:13.962 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2024-11-21 10:47:13.962 Simple channel: Yes
+. 2024-11-21 10:47:13.962 Return code variable: Autodetect; Lookup user groups: Auto
+. 2024-11-21 10:47:13.962 Shell: default
+. 2024-11-21 10:47:13.962 EOL: LF, UTF: Auto
+. 2024-11-21 10:47:13.962 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2024-11-21 10:47:13.962 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No; Exit code 1 is error: No
+. 2024-11-21 10:47:13.962 SFTP Bugs: Auto,Auto
+. 2024-11-21 10:47:13.962 SFTP Server: default
+. 2024-11-21 10:47:13.962 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2024-11-21 10:47:13.962 Cache directory changes: Yes, Permanent: Yes
+. 2024-11-21 10:47:13.962 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2024-11-21 10:47:13.962 DST mode: Unix
+. 2024-11-21 10:47:13.962 --------------------------------------------------------------------------
+< 2024-11-21 10:47:13.962 Script: Searching for host...
+. 2024-11-21 10:47:13.963 Looking up host "192.168.137.1" for SSH connection
+. 2024-11-21 10:47:13.963 Connecting to 192.168.137.1 port 22
+. 2024-11-21 10:47:13.964 Connected to 192.168.137.1
+< 2024-11-21 10:47:13.964 Script: Connecting to host...
+. 2024-11-21 10:47:13.964 We claim version: SSH-2.0-WinSCP_release_6.3.5
+. 2024-11-21 10:47:13.964 Connected to 192.168.137.1
+. 2024-11-21 10:47:13.968 Remote version: SSH-2.0-WeOnlyDo-wodFTPD 3.2.2.395
+. 2024-11-21 10:47:13.968 We believe remote version has SSH-2 rekey bug
+. 2024-11-21 10:47:13.968 Using SSH protocol version 2
+. 2024-11-21 10:47:13.968 Doing Diffie-Hellman key exchange using 2048-bit modulus and hash SHA-1 with standard group "group14"
+. 2024-11-21 10:47:14.284 Host key fingerprint is:
+. 2024-11-21 10:47:14.284 ssh-rsa 1024 SHA256:nb1Gneae043r3QbzqxQG+agIVbJnCzyEpTnNvSvLZXc
+< 2024-11-21 10:47:14.284 Script: Authenticating...
+. 2024-11-21 10:47:14.284 Attempt to close connection due to fatal exception:
+* 2024-11-21 10:47:14.284 Host key fingerprint is ssh-rsa 1024 nb1Gneae043r3QbzqxQG+agIVbJnCzyEpTnNvSvLZXc.
+* 2024-11-21 10:47:14.284 (Exception) **Expected host key was not configured, use -hostkey switch.**
+. 2024-11-21 10:47:14.284 Closing connection.
+< 2024-11-21 10:47:14.285 Script: Expected host key was not configured, use -hostkey switch.
+< 2024-11-21 10:47:14.285 Host key fingerprint is ssh-rsa 1024 nb1Gneae043r3QbzqxQG+agIVbJnCzyEpTnNvSvLZXc.
+< 2024-11-21 10:47:14.285 Authentication failed.
+. 2024-11-21 11:35:53.392 --------------------------------------------------------------------------
+. 2024-11-21 11:35:53.392 WinSCP Version 6.3.5 (Build 14991 2024-09-10) (OS 10.0.22631 – Windows 10 Home)
+. 2024-11-21 11:35:53.392 Configuration: nul
+. 2024-11-21 11:35:53.393 Log level: Normal
+. 2024-11-21 11:35:53.393 Local account: GON\gonlu
+. 2024-11-21 11:35:53.393 Working directory: C:\Users\gonlu\Desktop\FTP
+. 2024-11-21 11:35:53.393 Process ID: 12040
+. 2024-11-21 11:35:53.403 Ancestor processes: cmd, explorer, ...
+. 2024-11-21 11:35:53.403 Command-line: C:\Users\gonlu\AppData\Local\Programs\WinSCP\WinSCP.exe  /script=temp_script.txt /log=upload_log.txt /ini=nul
+. 2024-11-21 11:35:53.403 Time zone: Current: GMT+8 (China Standard Time), No DST
+. 2024-11-21 11:35:53.403 Login time: Thursday, 21 November 2024 11:35:53 am
+. 2024-11-21 11:35:53.403 --------------------------------------------------------------------------
+. 2024-11-21 11:35:53.403 Script: Retrospectively logging previous script records:
+> 2024-11-21 11:35:53.403 Script: open sftp://gon@192.168.137.1 -privatekey="C:\Users\gonlu\Desktop\FTP\privatekey.ppk" 
+. 2024-11-21 11:35:53.403 --------------------------------------------------------------------------
+. 2024-11-21 11:35:53.403 Session name: gon@192.168.137.1 (Ad-Hoc site)
+. 2024-11-21 11:35:53.403 Host name: 192.168.137.1 (Port: 22)
+. 2024-11-21 11:35:53.403 User name: gon (Password: No, Key file: Yes, Passphrase: No)
+. 2024-11-21 11:35:53.403 Tunnel: No
+. 2024-11-21 11:35:53.403 Transfer Protocol: SFTP
+. 2024-11-21 11:35:53.403 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2024-11-21 11:35:53.403 Disable Nagle: No
+. 2024-11-21 11:35:53.403 Proxy: None
+. 2024-11-21 11:35:53.403 Send buffer: 262144
+. 2024-11-21 11:35:53.403 Compression: No
+. 2024-11-21 11:35:53.403 Bypass authentication: No
+. 2024-11-21 11:35:53.403 Try agent: Yes; Agent forwarding: No; KI: Yes; GSSAPI: Yes
+. 2024-11-21 11:35:53.403 GSSAPI: KEX: No; Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2024-11-21 11:35:53.403 Ciphers: aes,chacha20,aesgcm,3des,WARN,des,blowfish,arcfour; Ssh2DES: No
+. 2024-11-21 11:35:53.403 KEX: ntru-curve25519,ecdh,dh-gex-sha1,dh-group18-sha512,dh-group17-sha512,dh-group16-sha512,dh-group15-sha512,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2024-11-21 11:35:53.403 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2024-11-21 11:35:53.403 Simple channel: Yes
+. 2024-11-21 11:35:53.403 Return code variable: Autodetect; Lookup user groups: Auto
+. 2024-11-21 11:35:53.403 Shell: default
+. 2024-11-21 11:35:53.403 EOL: LF, UTF: Auto
+. 2024-11-21 11:35:53.403 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2024-11-21 11:35:53.403 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No; Exit code 1 is error: No
+. 2024-11-21 11:35:53.403 SFTP Bugs: Auto,Auto
+. 2024-11-21 11:35:53.403 SFTP Server: default
+. 2024-11-21 11:35:53.403 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2024-11-21 11:35:53.403 Cache directory changes: Yes, Permanent: Yes
+. 2024-11-21 11:35:53.403 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2024-11-21 11:35:53.403 DST mode: Unix
+. 2024-11-21 11:35:53.403 --------------------------------------------------------------------------
+< 2024-11-21 11:35:53.403 Script: Searching for host...
+. 2024-11-21 11:35:53.404 Looking up host "192.168.137.1" for SSH connection
+. 2024-11-21 11:35:53.405 Connecting to 192.168.137.1 port 22
+. 2024-11-21 11:35:53.405 Connected to 192.168.137.1
+< 2024-11-21 11:35:53.405 Script: Connecting to host...
+. 2024-11-21 11:35:53.405 We claim version: SSH-2.0-WinSCP_release_6.3.5
+. 2024-11-21 11:35:53.405 Connected to 192.168.137.1
+. 2024-11-21 11:35:53.409 Remote version: SSH-2.0-WeOnlyDo-wodFTPD 3.2.2.395
+. 2024-11-21 11:35:53.409 We believe remote version has SSH-2 rekey bug
+. 2024-11-21 11:35:53.409 Using SSH protocol version 2
+. 2024-11-21 11:35:53.410 Doing Diffie-Hellman key exchange using 2048-bit modulus and hash SHA-1 with standard group "group14"
+. 2024-11-21 11:35:53.738 Host key fingerprint is:
+. 2024-11-21 11:35:53.738 ssh-rsa 1024 SHA256:nb1Gneae043r3QbzqxQG+agIVbJnCzyEpTnNvSvLZXc
+< 2024-11-21 11:35:53.738 Script: Authenticating...
+. 2024-11-21 11:35:53.738 Attempt to close connection due to fatal exception:
+* 2024-11-21 11:35:53.738 Host key fingerprint is ssh-rsa 1024 nb1Gneae043r3QbzqxQG+agIVbJnCzyEpTnNvSvLZXc.
+* 2024-11-21 11:35:53.738 (Exception) **Expected host key was not configured, use -hostkey switch.**
+. 2024-11-21 11:35:53.738 Closing connection.
+< 2024-11-21 11:35:53.739 Script: Expected host key was not configured, use -hostkey switch.
+< 2024-11-21 11:35:53.739 Host key fingerprint is ssh-rsa 1024 nb1Gneae043r3QbzqxQG+agIVbJnCzyEpTnNvSvLZXc.
+< 2024-11-21 11:35:53.739 Authentication failed.
+. 2024-11-22 09:27:04.834 --------------------------------------------------------------------------
+. 2024-11-22 09:27:04.834 WinSCP Version 6.3.5 (Build 14991 2024-09-10) (OS 10.0.22631 – Windows 10 Home)
+. 2024-11-22 09:27:04.834 Configuration: nul
+. 2024-11-22 09:27:04.834 Log level: Normal
+. 2024-11-22 09:27:04.834 Local account: GON\gonlu
+. 2024-11-22 09:27:04.834 Working directory: C:\Users\gonlu\Desktop\FTP
+. 2024-11-22 09:27:04.834 Process ID: 10668
+. 2024-11-22 09:27:04.845 Ancestor processes: cmd, explorer, ...
+. 2024-11-22 09:27:04.845 Command-line: C:\Users\gonlu\AppData\Local\Programs\WinSCP\WinSCP.exe  /script=temp_script.txt /log=upload_log.txt /ini=nul
+. 2024-11-22 09:27:04.846 Time zone: Current: GMT+8 (China Standard Time), No DST
+. 2024-11-22 09:27:04.846 Login time: Friday, 22 November 2024 9:27:04 am
+. 2024-11-22 09:27:04.846 --------------------------------------------------------------------------
+. 2024-11-22 09:27:04.846 Script: Retrospectively logging previous script records:
+> 2024-11-22 09:27:04.846 Script: open sftp://gon@192.168.137.1 -privatekey="C:\Users\gonlu\Desktop\FTP\privatekey.ppk" 
+. 2024-11-22 09:27:04.846 --------------------------------------------------------------------------
+. 2024-11-22 09:27:04.846 Session name: gon@192.168.137.1 (Ad-Hoc site)
+. 2024-11-22 09:27:04.846 Host name: 192.168.137.1 (Port: 22)
+. 2024-11-22 09:27:04.846 User name: gon (Password: No, Key file: Yes, Passphrase: No)
+. 2024-11-22 09:27:04.846 Tunnel: No
+. 2024-11-22 09:27:04.846 Transfer Protocol: SFTP
+. 2024-11-22 09:27:04.846 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2024-11-22 09:27:04.846 Disable Nagle: No
+. 2024-11-22 09:27:04.846 Proxy: None
+. 2024-11-22 09:27:04.846 Send buffer: 262144
+. 2024-11-22 09:27:04.846 Compression: No
+. 2024-11-22 09:27:04.846 Bypass authentication: No
+. 2024-11-22 09:27:04.846 Try agent: Yes; Agent forwarding: No; KI: Yes; GSSAPI: Yes
+. 2024-11-22 09:27:04.846 GSSAPI: KEX: No; Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2024-11-22 09:27:04.846 Ciphers: aes,chacha20,aesgcm,3des,WARN,des,blowfish,arcfour; Ssh2DES: No
+. 2024-11-22 09:27:04.846 KEX: ntru-curve25519,ecdh,dh-gex-sha1,dh-group18-sha512,dh-group17-sha512,dh-group16-sha512,dh-group15-sha512,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2024-11-22 09:27:04.846 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2024-11-22 09:27:04.846 Simple channel: Yes
+. 2024-11-22 09:27:04.846 Return code variable: Autodetect; Lookup user groups: Auto
+. 2024-11-22 09:27:04.846 Shell: default
+. 2024-11-22 09:27:04.846 EOL: LF, UTF: Auto
+. 2024-11-22 09:27:04.846 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2024-11-22 09:27:04.846 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No; Exit code 1 is error: No
+. 2024-11-22 09:27:04.846 SFTP Bugs: Auto,Auto
+. 2024-11-22 09:27:04.846 SFTP Server: default
+. 2024-11-22 09:27:04.846 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2024-11-22 09:27:04.846 Cache directory changes: Yes, Permanent: Yes
+. 2024-11-22 09:27:04.846 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2024-11-22 09:27:04.846 DST mode: Unix
+. 2024-11-22 09:27:04.846 --------------------------------------------------------------------------
+< 2024-11-22 09:27:04.846 Script: Searching for host...
+. 2024-11-22 09:27:04.846 Looking up host "192.168.137.1" for SSH connection
+. 2024-11-22 09:27:04.847 Connecting to 192.168.137.1 port 22
+. 2024-11-22 09:27:04.847 Connected to 192.168.137.1
+< 2024-11-22 09:27:04.848 Script: Connecting to host...
+. 2024-11-22 09:27:04.848 We claim version: SSH-2.0-WinSCP_release_6.3.5
+. 2024-11-22 09:27:04.848 Connected to 192.168.137.1
+. 2024-11-22 09:27:04.853 Remote version: SSH-2.0-WeOnlyDo-wodFTPD 3.2.2.395
+. 2024-11-22 09:27:04.853 We believe remote version has SSH-2 rekey bug
+. 2024-11-22 09:27:04.853 Using SSH protocol version 2
+. 2024-11-22 09:27:04.854 Doing Diffie-Hellman key exchange using 2048-bit modulus and hash SHA-1 with standard group "group14"
+. 2024-11-22 09:27:05.191 Host key fingerprint is:
+. 2024-11-22 09:27:05.191 ssh-rsa 1024 SHA256:nb1Gneae043r3QbzqxQG+agIVbJnCzyEpTnNvSvLZXc
+< 2024-11-22 09:27:05.191 Script: Authenticating...
+. 2024-11-22 09:27:05.191 Attempt to close connection due to fatal exception:
+* 2024-11-22 09:27:05.191 Host key fingerprint is ssh-rsa 1024 nb1Gneae043r3QbzqxQG+agIVbJnCzyEpTnNvSvLZXc.
+* 2024-11-22 09:27:05.191 (Exception) **Expected host key was not configured, use -hostkey switch.**
+. 2024-11-22 09:27:05.191 Closing connection.
+< 2024-11-22 09:27:05.192 Script: Expected host key was not configured, use -hostkey switch.
+< 2024-11-22 09:27:05.192 Host key fingerprint is ssh-rsa 1024 nb1Gneae043r3QbzqxQG+agIVbJnCzyEpTnNvSvLZXc.
+< 2024-11-22 09:27:05.192 Authentication failed.
+. 2024-11-22 09:31:21.335 --------------------------------------------------------------------------
+. 2024-11-22 09:31:21.335 WinSCP Version 6.3.5 (Build 14991 2024-09-10) (OS 10.0.22631 – Windows 10 Home)
+. 2024-11-22 09:31:21.335 Configuration: nul
+. 2024-11-22 09:31:21.335 Log level: Normal
+. 2024-11-22 09:31:21.335 Local account: GON\gonlu
+. 2024-11-22 09:31:21.335 Working directory: C:\Users\gonlu\Desktop\FTP
+. 2024-11-22 09:31:21.335 Process ID: 12616
+. 2024-11-22 09:31:21.344 Ancestor processes: cmd, explorer, ...
+. 2024-11-22 09:31:21.344 Command-line: "C:\Users\gonlu\AppData\Local\Programs\WinSCP\WinSCP.exe"  /script=temp_script.txt /log=upload_log.txt /ini=nul
+. 2024-11-22 09:31:21.344 Time zone: Current: GMT+8 (China Standard Time), No DST
+. 2024-11-22 09:31:21.344 Login time: Friday, 22 November 2024 9:31:21 am
+. 2024-11-22 09:31:21.344 --------------------------------------------------------------------------
+. 2024-11-22 09:31:21.344 Script: Retrospectively logging previous script records:
+> 2024-11-22 09:31:21.344 Script: open sftp://gon@192.168.137.1 -privatekey="C:\Users\gonlu\Desktop\FTP\privatekey.ppk"
+. 2024-11-22 09:31:21.344 --------------------------------------------------------------------------
+. 2024-11-22 09:31:21.344 Session name: gon@192.168.137.1 (Ad-Hoc site)
+. 2024-11-22 09:31:21.344 Host name: 192.168.137.1 (Port: 22)
+. 2024-11-22 09:31:21.344 User name: gon (Password: No, Key file: Yes, Passphrase: No)
+. 2024-11-22 09:31:21.344 Tunnel: No
+. 2024-11-22 09:31:21.344 Transfer Protocol: SFTP
+. 2024-11-22 09:31:21.344 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2024-11-22 09:31:21.344 Disable Nagle: No
+. 2024-11-22 09:31:21.344 Proxy: None
+. 2024-11-22 09:31:21.344 Send buffer: 262144
+. 2024-11-22 09:31:21.345 Compression: No
+. 2024-11-22 09:31:21.345 Bypass authentication: No
+. 2024-11-22 09:31:21.345 Try agent: Yes; Agent forwarding: No; KI: Yes; GSSAPI: Yes
+. 2024-11-22 09:31:21.345 GSSAPI: KEX: No; Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2024-11-22 09:31:21.345 Ciphers: aes,chacha20,aesgcm,3des,WARN,des,blowfish,arcfour; Ssh2DES: No
+. 2024-11-22 09:31:21.345 KEX: ntru-curve25519,ecdh,dh-gex-sha1,dh-group18-sha512,dh-group17-sha512,dh-group16-sha512,dh-group15-sha512,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2024-11-22 09:31:21.345 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2024-11-22 09:31:21.345 Simple channel: Yes
+. 2024-11-22 09:31:21.345 Return code variable: Autodetect; Lookup user groups: Auto
+. 2024-11-22 09:31:21.345 Shell: default
+. 2024-11-22 09:31:21.345 EOL: LF, UTF: Auto
+. 2024-11-22 09:31:21.345 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2024-11-22 09:31:21.345 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No; Exit code 1 is error: No
+. 2024-11-22 09:31:21.345 SFTP Bugs: Auto,Auto
+. 2024-11-22 09:31:21.345 SFTP Server: default
+. 2024-11-22 09:31:21.345 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2024-11-22 09:31:21.345 Cache directory changes: Yes, Permanent: Yes
+. 2024-11-22 09:31:21.345 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2024-11-22 09:31:21.345 DST mode: Unix
+. 2024-11-22 09:31:21.345 --------------------------------------------------------------------------
+< 2024-11-22 09:31:21.345 Script: Searching for host...
+. 2024-11-22 09:31:21.345 Looking up host "192.168.137.1" for SSH connection
+. 2024-11-22 09:31:21.346 Connecting to 192.168.137.1 port 22
+. 2024-11-22 09:31:21.346 Connected to 192.168.137.1
+< 2024-11-22 09:31:21.346 Script: Connecting to host...
+. 2024-11-22 09:31:21.346 We claim version: SSH-2.0-WinSCP_release_6.3.5
+. 2024-11-22 09:31:21.346 Connected to 192.168.137.1
+. 2024-11-22 09:31:21.351 Remote version: SSH-2.0-WeOnlyDo-wodFTPD 3.2.2.395
+. 2024-11-22 09:31:21.351 We believe remote version has SSH-2 rekey bug
+. 2024-11-22 09:31:21.351 Using SSH protocol version 2
+. 2024-11-22 09:31:21.351 Doing Diffie-Hellman key exchange using 2048-bit modulus and hash SHA-1 with standard group "group14"
+. 2024-11-22 09:31:21.672 Host key fingerprint is:
+. 2024-11-22 09:31:21.673 ssh-rsa 1024 SHA256:nb1Gneae043r3QbzqxQG+agIVbJnCzyEpTnNvSvLZXc
+< 2024-11-22 09:31:21.673 Script: Authenticating...
+. 2024-11-22 09:31:21.673 Attempt to close connection due to fatal exception:
+* 2024-11-22 09:31:21.673 Host key fingerprint is ssh-rsa 1024 nb1Gneae043r3QbzqxQG+agIVbJnCzyEpTnNvSvLZXc.
+* 2024-11-22 09:31:21.673 (Exception) **Expected host key was not configured, use -hostkey switch.**
+. 2024-11-22 09:31:21.673 Closing connection.
+< 2024-11-22 09:31:21.673 Script: Expected host key was not configured, use -hostkey switch.
+< 2024-11-22 09:31:21.673 Host key fingerprint is ssh-rsa 1024 nb1Gneae043r3QbzqxQG+agIVbJnCzyEpTnNvSvLZXc.
+< 2024-11-22 09:31:21.673 Authentication failed.
+. 2024-11-22 09:33:31.539 --------------------------------------------------------------------------
+. 2024-11-22 09:33:31.539 WinSCP Version 6.3.5 (Build 14991 2024-09-10) (OS 10.0.22631 – Windows 10 Home)
+. 2024-11-22 09:33:31.539 Configuration: nul
+. 2024-11-22 09:33:31.539 Log level: Normal
+. 2024-11-22 09:33:31.539 Local account: GON\gonlu
+. 2024-11-22 09:33:31.539 Working directory: C:\Users\gonlu\Desktop\FTP
+. 2024-11-22 09:33:31.539 Process ID: 11472
+. 2024-11-22 09:33:31.551 Ancestor processes: cmd, explorer, ...
+. 2024-11-22 09:33:31.551 Command-line: "C:\Users\gonlu\AppData\Local\Programs\WinSCP\WinSCP.exe"  /script=temp_script.txt /log=upload_log.txt /ini=nul
+. 2024-11-22 09:33:31.551 Time zone: Current: GMT+8 (China Standard Time), No DST
+. 2024-11-22 09:33:31.552 Login time: Friday, 22 November 2024 9:33:31 am
+. 2024-11-22 09:33:31.552 --------------------------------------------------------------------------
+. 2024-11-22 09:33:31.552 Script: Retrospectively logging previous script records:
+> 2024-11-22 09:33:31.552 Script: open sftp://gon@192.168.137.1 -privatekey="C:\Users\gonlu\Desktop\FTP\privatekey.ppk"
+. 2024-11-22 09:33:31.552 --------------------------------------------------------------------------
+. 2024-11-22 09:33:31.552 Session name: gon@192.168.137.1 (Ad-Hoc site)
+. 2024-11-22 09:33:31.552 Host name: 192.168.137.1 (Port: 22)
+. 2024-11-22 09:33:31.552 User name: gon (Password: No, Key file: Yes, Passphrase: No)
+. 2024-11-22 09:33:31.552 Tunnel: No
+. 2024-11-22 09:33:31.552 Transfer Protocol: SFTP
+. 2024-11-22 09:33:31.552 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2024-11-22 09:33:31.552 Disable Nagle: No
+. 2024-11-22 09:33:31.552 Proxy: None
+. 2024-11-22 09:33:31.552 Send buffer: 262144
+. 2024-11-22 09:33:31.552 Compression: No
+. 2024-11-22 09:33:31.552 Bypass authentication: No
+. 2024-11-22 09:33:31.552 Try agent: Yes; Agent forwarding: No; KI: Yes; GSSAPI: Yes
+. 2024-11-22 09:33:31.552 GSSAPI: KEX: No; Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2024-11-22 09:33:31.552 Ciphers: aes,chacha20,aesgcm,3des,WARN,des,blowfish,arcfour; Ssh2DES: No
+. 2024-11-22 09:33:31.552 KEX: ntru-curve25519,ecdh,dh-gex-sha1,dh-group18-sha512,dh-group17-sha512,dh-group16-sha512,dh-group15-sha512,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2024-11-22 09:33:31.552 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2024-11-22 09:33:31.552 Simple channel: Yes
+. 2024-11-22 09:33:31.552 Return code variable: Autodetect; Lookup user groups: Auto
+. 2024-11-22 09:33:31.552 Shell: default
+. 2024-11-22 09:33:31.552 EOL: LF, UTF: Auto
+. 2024-11-22 09:33:31.552 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2024-11-22 09:33:31.552 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No; Exit code 1 is error: No
+. 2024-11-22 09:33:31.552 SFTP Bugs: Auto,Auto
+. 2024-11-22 09:33:31.552 SFTP Server: default
+. 2024-11-22 09:33:31.552 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2024-11-22 09:33:31.552 Cache directory changes: Yes, Permanent: Yes
+. 2024-11-22 09:33:31.552 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2024-11-22 09:33:31.552 DST mode: Unix
+. 2024-11-22 09:33:31.552 --------------------------------------------------------------------------
+< 2024-11-22 09:33:31.552 Script: Searching for host...
+. 2024-11-22 09:33:31.552 Looking up host "192.168.137.1" for SSH connection
+. 2024-11-22 09:33:31.553 Connecting to 192.168.137.1 port 22
+. 2024-11-22 09:33:31.553 Connected to 192.168.137.1
+< 2024-11-22 09:33:31.553 Script: Connecting to host...
+. 2024-11-22 09:33:31.554 We claim version: SSH-2.0-WinSCP_release_6.3.5
+. 2024-11-22 09:33:31.554 Connected to 192.168.137.1
+. 2024-11-22 09:33:31.558 Remote version: SSH-2.0-WeOnlyDo-wodFTPD 3.2.2.395
+. 2024-11-22 09:33:31.559 We believe remote version has SSH-2 rekey bug
+. 2024-11-22 09:33:31.559 Using SSH protocol version 2
+. 2024-11-22 09:33:31.559 Doing Diffie-Hellman key exchange using 2048-bit modulus and hash SHA-1 with standard group "group14"
+. 2024-11-22 09:33:31.883 Host key fingerprint is:
+. 2024-11-22 09:33:31.883 ssh-rsa 1024 SHA256:nb1Gneae043r3QbzqxQG+agIVbJnCzyEpTnNvSvLZXc
+< 2024-11-22 09:33:31.883 Script: Authenticating...
+. 2024-11-22 09:33:31.883 Attempt to close connection due to fatal exception:
+* 2024-11-22 09:33:31.883 Host key fingerprint is ssh-rsa 1024 nb1Gneae043r3QbzqxQG+agIVbJnCzyEpTnNvSvLZXc.
+* 2024-11-22 09:33:31.883 (Exception) **Expected host key was not configured, use -hostkey switch.**
+. 2024-11-22 09:33:31.883 Closing connection.
+< 2024-11-22 09:33:31.884 Script: Expected host key was not configured, use -hostkey switch.
+< 2024-11-22 09:33:31.884 Host key fingerprint is ssh-rsa 1024 nb1Gneae043r3QbzqxQG+agIVbJnCzyEpTnNvSvLZXc.
+< 2024-11-22 09:33:31.884 Authentication failed.
+. 2024-11-22 09:42:18.573 --------------------------------------------------------------------------
+. 2024-11-22 09:42:18.573 WinSCP Version 6.3.5 (Build 14991 2024-09-10) (OS 10.0.22631 – Windows 10 Home)
+. 2024-11-22 09:42:18.573 Configuration: nul
+. 2024-11-22 09:42:18.573 Log level: Debug 2
+. 2024-11-22 09:42:18.573 Local account: GON\gonlu
+. 2024-11-22 09:42:18.573 Working directory: C:\Users\gonlu\Desktop\FTP
+. 2024-11-22 09:42:18.573 Process ID: 23680
+. 2024-11-22 09:42:18.586 Ancestor processes: cmd, explorer, ...
+. 2024-11-22 09:42:18.586 Command-line: "C:\Users\gonlu\AppData\Local\Programs\WinSCP\WinSCP.exe"  /script=temp_script.txt /log=upload_log.txt /loglevel=2 /ini=nul
+. 2024-11-22 09:42:18.586 Switch:    /script=temp_script.txt
+. 2024-11-22 09:42:18.586 Switch:    /log=upload_log.txt
+. 2024-11-22 09:42:18.586 Switch:    /loglevel=2
+. 2024-11-22 09:42:18.586 Switch:    /ini=nul
+. 2024-11-22 09:42:18.586 Time zone: Current: GMT+8 (China Standard Time), No DST
+. 2024-11-22 09:42:18.586 Login time: Friday, 22 November 2024 9:42:18 am
+. 2024-11-22 09:42:18.586 --------------------------------------------------------------------------
+. 2024-11-22 09:42:18.586 Script: Retrospectively logging previous script records:
+> 2024-11-22 09:42:18.586 Script: open sftp://gon@192.168.137.1 -privatekey="C:\Users\gonlu\Desktop\FTP\privatekey.ppk"
+> 2024-11-22 09:42:18.586 Script: Parameter: sftp://gon@192.168.137.1
+> 2024-11-22 09:42:18.586 Script: Switch:    -privatekey=C:\Users\gonlu\Desktop\FTP\privatekey.ppk
+. 2024-11-22 09:42:18.586 --------------------------------------------------------------------------
+. 2024-11-22 09:42:18.586 Session name: gon@192.168.137.1 (Ad-Hoc site)
+. 2024-11-22 09:42:18.586 Host name: 192.168.137.1 (Port: 22)
+. 2024-11-22 09:42:18.586 User name: gon (Password: No, Key file: Yes, Passphrase: No)
+. 2024-11-22 09:42:18.586 Tunnel: No
+. 2024-11-22 09:42:18.586 Transfer Protocol: SFTP
+. 2024-11-22 09:42:18.586 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2024-11-22 09:42:18.586 Disable Nagle: No
+. 2024-11-22 09:42:18.586 Proxy: None
+. 2024-11-22 09:42:18.586 Send buffer: 262144
+. 2024-11-22 09:42:18.586 Compression: No
+. 2024-11-22 09:42:18.586 Bypass authentication: No
+. 2024-11-22 09:42:18.586 Try agent: Yes; Agent forwarding: No; KI: Yes; GSSAPI: Yes
+. 2024-11-22 09:42:18.586 GSSAPI: KEX: No; Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2024-11-22 09:42:18.586 Ciphers: aes,chacha20,aesgcm,3des,WARN,des,blowfish,arcfour; Ssh2DES: No
+. 2024-11-22 09:42:18.586 KEX: ntru-curve25519,ecdh,dh-gex-sha1,dh-group18-sha512,dh-group17-sha512,dh-group16-sha512,dh-group15-sha512,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2024-11-22 09:42:18.586 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2024-11-22 09:42:18.586 Simple channel: Yes
+. 2024-11-22 09:42:18.586 Return code variable: Autodetect; Lookup user groups: Auto
+. 2024-11-22 09:42:18.586 Shell: default
+. 2024-11-22 09:42:18.586 EOL: LF, UTF: Auto
+. 2024-11-22 09:42:18.586 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2024-11-22 09:42:18.586 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No; Exit code 1 is error: No
+. 2024-11-22 09:42:18.586 SFTP Bugs: Auto,Auto
+. 2024-11-22 09:42:18.586 SFTP Server: default
+. 2024-11-22 09:42:18.586 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2024-11-22 09:42:18.586 Cache directory changes: Yes, Permanent: Yes
+. 2024-11-22 09:42:18.586 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2024-11-22 09:42:18.586 DST mode: Unix
+. 2024-11-22 09:42:18.586 --------------------------------------------------------------------------
+< 2024-11-22 09:42:18.586 Script: Searching for host...
+. 2024-11-22 09:42:18.587 Looking up host "192.168.137.1" for SSH connection
+. 2024-11-22 09:42:18.588 Connecting to 192.168.137.1 port 22
+. 2024-11-22 09:42:18.588 Connected to 192.168.137.1
+. 2024-11-22 09:42:18.588 Selecting events 63 for socket 1180
+< 2024-11-22 09:42:18.588 Script: Connecting to host...
+. 2024-11-22 09:42:18.588 Waiting for the server to continue with the initialization
+. 2024-11-22 09:42:18.588 Looking for incoming data
+. 2024-11-22 09:42:18.588 Looking for network events
+. 2024-11-22 09:42:18.588 We claim version: SSH-2.0-WinSCP_release_6.3.5
+. 2024-11-22 09:42:18.588 Detected network event
+. 2024-11-22 09:42:18.588 Enumerating network events for socket 1180
+. 2024-11-22 09:42:18.588 Enumerated 18 network events making 18 cumulative events for socket 1180
+. 2024-11-22 09:42:18.588 Handling network write event on socket 1180 with error 0
+. 2024-11-22 09:42:18.588 Handling network connect event on socket 1180 with error 0
+. 2024-11-22 09:42:18.588 Connected to 192.168.137.1
+. 2024-11-22 09:42:18.588 Looking for network events
+. 2024-11-22 09:42:18.592 Detected network event
+. 2024-11-22 09:42:18.592 Enumerating network events for socket 1180
+. 2024-11-22 09:42:18.592 Enumerated 1 network events making 1 cumulative events for socket 1180
+. 2024-11-22 09:42:18.592 Handling network read event on socket 1180 with error 0
+. 2024-11-22 09:42:18.593 Waiting for the server to continue with the initialization
+. 2024-11-22 09:42:18.593 Looking for incoming data
+. 2024-11-22 09:42:18.593 Looking for network events
+. 2024-11-22 09:42:18.593 Remote version: SSH-2.0-WeOnlyDo-wodFTPD 3.2.2.395
+. 2024-11-22 09:42:18.593 We believe remote version has SSH-2 rekey bug
+. 2024-11-22 09:42:18.593 Using SSH protocol version 2
+. 2024-11-22 09:42:18.593 Detected network event
+. 2024-11-22 09:42:18.593 Enumerating network events for socket 1180
+. 2024-11-22 09:42:18.593 Enumerated 0 network events making 0 cumulative events for socket 1180
+. 2024-11-22 09:42:18.593 Looking for network events
+. 2024-11-22 09:42:18.593 Doing Diffie-Hellman key exchange using 2048-bit modulus and hash SHA-1 with standard group "group14"
+. 2024-11-22 09:42:18.769 Detected network event
+. 2024-11-22 09:42:18.769 Enumerating network events for socket 1180
+. 2024-11-22 09:42:18.769 Enumerated 1 network events making 1 cumulative events for socket 1180
+. 2024-11-22 09:42:18.769 Handling network read event on socket 1180 with error 0
+. 2024-11-22 09:42:18.769 Waiting for the server to continue with the initialization
+. 2024-11-22 09:42:18.769 Looking for incoming data
+. 2024-11-22 09:42:18.769 Looking for network events
+. 2024-11-22 09:42:18.924 Host key fingerprint is:
+. 2024-11-22 09:42:18.924 ssh-rsa 1024 SHA256:nb1Gneae043r3QbzqxQG+agIVbJnCzyEpTnNvSvLZXc
+. 2024-11-22 09:42:18.924 Verifying host key rsa2 0x23,0xe309e5a70a4f487e 2a7169d7babac4f2 602fd7a282e7a6d8 c91a4e00d74e49df 9d40a0d359f6fc28 6debfac09424ec1d 61cc7b19049a828e 1138bae020bbc403 48607c855ee9f3a9 b7dc751b6cc38bd1 1f37a228d27340b4 70da42be820b56e1 db108ae511e4e2c6 b7713963a288de4a 8184840cb1140d37 f477f72392c5f901  with fingerprints ssh-rsa 1024 SHA256:nb1Gneae043r3QbzqxQG+agIVbJnCzyEpTnNvSvLZXc, ssh-rsa 1024 a2:6d:57:b3:a7:94:3e:3d:d3:05:bc:b2:8f:76:8b:5f
+< 2024-11-22 09:42:18.924 Script: Authenticating...
+. 2024-11-22 09:42:18.924 Attempt to close connection due to fatal exception:
+* 2024-11-22 09:42:18.924 Host key fingerprint is ssh-rsa 1024 nb1Gneae043r3QbzqxQG+agIVbJnCzyEpTnNvSvLZXc.
+* 2024-11-22 09:42:18.924 (Exception) **Expected host key was not configured, use -hostkey switch.**
+. 2024-11-22 09:42:18.924 Closing connection.
+. 2024-11-22 09:42:18.925 Selecting events 0 for socket 1180
+< 2024-11-22 09:42:18.925 Script: Expected host key was not configured, use -hostkey switch.
+< 2024-11-22 09:42:18.925 Host key fingerprint is ssh-rsa 1024 nb1Gneae043r3QbzqxQG+agIVbJnCzyEpTnNvSvLZXc.
+< 2024-11-22 09:42:18.925 Authentication failed.
+. 2024-11-22 09:42:31.196 --------------------------------------------------------------------------
+. 2024-11-22 09:42:31.196 WinSCP Version 6.3.5 (Build 14991 2024-09-10) (OS 10.0.22631 – Windows 10 Home)
+. 2024-11-22 09:42:31.196 Configuration: nul
+. 2024-11-22 09:42:31.197 Log level: Debug 2
+. 2024-11-22 09:42:31.197 Local account: GON\gonlu
+. 2024-11-22 09:42:31.197 Working directory: C:\Users\gonlu\Desktop\FTP
+. 2024-11-22 09:42:31.197 Process ID: 5524
+. 2024-11-22 09:42:31.206 Ancestor processes: cmd, explorer, ...
+. 2024-11-22 09:42:31.206 Command-line: "C:\Users\gonlu\AppData\Local\Programs\WinSCP\WinSCP.exe"  /script=temp_script.txt /log=upload_log.txt /loglevel=2 /ini=nul
+. 2024-11-22 09:42:31.206 Switch:    /script=temp_script.txt
+. 2024-11-22 09:42:31.206 Switch:    /log=upload_log.txt
+. 2024-11-22 09:42:31.206 Switch:    /loglevel=2
+. 2024-11-22 09:42:31.206 Switch:    /ini=nul
+. 2024-11-22 09:42:31.206 Time zone: Current: GMT+8 (China Standard Time), No DST
+. 2024-11-22 09:42:31.206 Login time: Friday, 22 November 2024 9:42:31 am
+. 2024-11-22 09:42:31.206 --------------------------------------------------------------------------
+. 2024-11-22 09:42:31.206 Script: Retrospectively logging previous script records:
+> 2024-11-22 09:42:31.206 Script: open sftp://gon@192.168.137.1 -privatekey="C:\Users\gonlu\Desktop\FTP\privatekey.ppk"
+> 2024-11-22 09:42:31.206 Script: Parameter: sftp://gon@192.168.137.1
+> 2024-11-22 09:42:31.206 Script: Switch:    -privatekey=C:\Users\gonlu\Desktop\FTP\privatekey.ppk
+. 2024-11-22 09:42:31.206 --------------------------------------------------------------------------
+. 2024-11-22 09:42:31.206 Session name: gon@192.168.137.1 (Ad-Hoc site)
+. 2024-11-22 09:42:31.206 Host name: 192.168.137.1 (Port: 22)
+. 2024-11-22 09:42:31.206 User name: gon (Password: No, Key file: Yes, Passphrase: No)
+. 2024-11-22 09:42:31.207 Tunnel: No
+. 2024-11-22 09:42:31.207 Transfer Protocol: SFTP
+. 2024-11-22 09:42:31.207 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2024-11-22 09:42:31.207 Disable Nagle: No
+. 2024-11-22 09:42:31.207 Proxy: None
+. 2024-11-22 09:42:31.207 Send buffer: 262144
+. 2024-11-22 09:42:31.207 Compression: No
+. 2024-11-22 09:42:31.207 Bypass authentication: No
+. 2024-11-22 09:42:31.207 Try agent: Yes; Agent forwarding: No; KI: Yes; GSSAPI: Yes
+. 2024-11-22 09:42:31.207 GSSAPI: KEX: No; Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2024-11-22 09:42:31.207 Ciphers: aes,chacha20,aesgcm,3des,WARN,des,blowfish,arcfour; Ssh2DES: No
+. 2024-11-22 09:42:31.207 KEX: ntru-curve25519,ecdh,dh-gex-sha1,dh-group18-sha512,dh-group17-sha512,dh-group16-sha512,dh-group15-sha512,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2024-11-22 09:42:31.207 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2024-11-22 09:42:31.207 Simple channel: Yes
+. 2024-11-22 09:42:31.207 Return code variable: Autodetect; Lookup user groups: Auto
+. 2024-11-22 09:42:31.207 Shell: default
+. 2024-11-22 09:42:31.207 EOL: LF, UTF: Auto
+. 2024-11-22 09:42:31.207 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2024-11-22 09:42:31.207 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No; Exit code 1 is error: No
+. 2024-11-22 09:42:31.207 SFTP Bugs: Auto,Auto
+. 2024-11-22 09:42:31.207 SFTP Server: default
+. 2024-11-22 09:42:31.207 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2024-11-22 09:42:31.207 Cache directory changes: Yes, Permanent: Yes
+. 2024-11-22 09:42:31.207 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2024-11-22 09:42:31.207 DST mode: Unix
+. 2024-11-22 09:42:31.207 --------------------------------------------------------------------------
+< 2024-11-22 09:42:31.207 Script: Searching for host...
+. 2024-11-22 09:42:31.207 Looking up host "192.168.137.1" for SSH connection
+. 2024-11-22 09:42:31.208 Connecting to 192.168.137.1 port 22
+. 2024-11-22 09:42:31.208 Connected to 192.168.137.1
+. 2024-11-22 09:42:31.208 Selecting events 63 for socket 1188
+< 2024-11-22 09:42:31.208 Script: Connecting to host...
+. 2024-11-22 09:42:31.208 Waiting for the server to continue with the initialization
+. 2024-11-22 09:42:31.208 Looking for incoming data
+. 2024-11-22 09:42:31.208 Looking for network events
+. 2024-11-22 09:42:31.208 We claim version: SSH-2.0-WinSCP_release_6.3.5
+. 2024-11-22 09:42:31.208 Detected network event
+. 2024-11-22 09:42:31.208 Enumerating network events for socket 1188
+. 2024-11-22 09:42:31.208 Enumerated 18 network events making 18 cumulative events for socket 1188
+. 2024-11-22 09:42:31.208 Handling network write event on socket 1188 with error 0
+. 2024-11-22 09:42:31.208 Handling network connect event on socket 1188 with error 0
+. 2024-11-22 09:42:31.209 Connected to 192.168.137.1
+. 2024-11-22 09:42:31.209 Looking for network events
+. 2024-11-22 09:42:31.212 Detected network event
+. 2024-11-22 09:42:31.212 Enumerating network events for socket 1188
+. 2024-11-22 09:42:31.212 Enumerated 1 network events making 1 cumulative events for socket 1188
+. 2024-11-22 09:42:31.212 Handling network read event on socket 1188 with error 0
+. 2024-11-22 09:42:31.212 Waiting for the server to continue with the initialization
+. 2024-11-22 09:42:31.212 Looking for incoming data
+. 2024-11-22 09:42:31.212 Looking for network events
+. 2024-11-22 09:42:31.212 Remote version: SSH-2.0-WeOnlyDo-wodFTPD 3.2.2.395
+. 2024-11-22 09:42:31.213 We believe remote version has SSH-2 rekey bug
+. 2024-11-22 09:42:31.213 Using SSH protocol version 2
+. 2024-11-22 09:42:31.213 Doing Diffie-Hellman key exchange using 2048-bit modulus and hash SHA-1 with standard group "group14"
+. 2024-11-22 09:42:31.387 Detected network event
+. 2024-11-22 09:42:31.387 Enumerating network events for socket 1188
+. 2024-11-22 09:42:31.387 Enumerated 1 network events making 1 cumulative events for socket 1188
+. 2024-11-22 09:42:31.387 Handling network read event on socket 1188 with error 0
+. 2024-11-22 09:42:31.387 Waiting for the server to continue with the initialization
+. 2024-11-22 09:42:31.387 Looking for incoming data
+. 2024-11-22 09:42:31.387 Looking for network events
+. 2024-11-22 09:42:31.540 Host key fingerprint is:
+. 2024-11-22 09:42:31.540 ssh-rsa 1024 SHA256:nb1Gneae043r3QbzqxQG+agIVbJnCzyEpTnNvSvLZXc
+. 2024-11-22 09:42:31.540 Verifying host key rsa2 0x23,0xe309e5a70a4f487e 2a7169d7babac4f2 602fd7a282e7a6d8 c91a4e00d74e49df 9d40a0d359f6fc28 6debfac09424ec1d 61cc7b19049a828e 1138bae020bbc403 48607c855ee9f3a9 b7dc751b6cc38bd1 1f37a228d27340b4 70da42be820b56e1 db108ae511e4e2c6 b7713963a288de4a 8184840cb1140d37 f477f72392c5f901  with fingerprints ssh-rsa 1024 SHA256:nb1Gneae043r3QbzqxQG+agIVbJnCzyEpTnNvSvLZXc, ssh-rsa 1024 a2:6d:57:b3:a7:94:3e:3d:d3:05:bc:b2:8f:76:8b:5f
+< 2024-11-22 09:42:31.540 Script: Authenticating...
+. 2024-11-22 09:42:31.540 Attempt to close connection due to fatal exception:
+* 2024-11-22 09:42:31.540 Host key fingerprint is ssh-rsa 1024 nb1Gneae043r3QbzqxQG+agIVbJnCzyEpTnNvSvLZXc.
+* 2024-11-22 09:42:31.540 (Exception) **Expected host key was not configured, use -hostkey switch.**
+. 2024-11-22 09:42:31.540 Closing connection.
+. 2024-11-22 09:42:31.540 Selecting events 0 for socket 1188
+< 2024-11-22 09:42:31.541 Script: Expected host key was not configured, use -hostkey switch.
+< 2024-11-22 09:42:31.541 Host key fingerprint is ssh-rsa 1024 nb1Gneae043r3QbzqxQG+agIVbJnCzyEpTnNvSvLZXc.
+< 2024-11-22 09:42:31.541 Authentication failed.
